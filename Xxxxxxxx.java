@@ -4,11 +4,11 @@ import java.util.Scanner;
  * Created by hernanpesantez on 9/12/17.
  */
 
-public class X14101468 extends Polynomial {
+public class Xxxxxxxx extends Polynomial {
     public static void main(String args[]) throws Exception {
 
-        Polynomial p = new X14101468("x^9"),
-                q = new X14101468("x^9");
+        Polynomial p = new Xxxxxxxx("x^9"),
+                q = new Xxxxxxxx("x^9");
         Utility.run(p, q);
         
         
@@ -16,7 +16,7 @@ public class X14101468 extends Polynomial {
         
     }
 
-    public X14101468(String s) {
+    public Xxxxxxxx(String s) {
 
 
 
@@ -31,13 +31,13 @@ public class X14101468 extends Polynomial {
 
     }
 
-    public X14101468() {
+    public Xxxxxxxx() {
         super();
     }
 
 
     public Polynomial add(Polynomial p) {
-        Polynomial ans = new X14101468();
+        Polynomial ans = new Xxxxxxxx();
         // complete this code
 
         DNode<Term> sQ, sP;
@@ -101,7 +101,7 @@ public class X14101468 extends Polynomial {
 
 
     public Polynomial subtract(Polynomial p) {
-        Polynomial ans = new X14101468();
+        Polynomial ans = new Xxxxxxxx();
         // complete this code
 
 
@@ -175,7 +175,7 @@ public class X14101468 extends Polynomial {
 
     public Polynomial multiply(Polynomial p) {
 
-        Polynomial ans = new X14101468();
+        Polynomial ans = new Xxxxxxxx();
 
         // complete this code
 
@@ -222,7 +222,7 @@ public class X14101468 extends Polynomial {
     }
 
     public Polynomial divide(Polynomial p) throws Exception {
-        Polynomial ans = new X14101468();
+        Polynomial ans = new Xxxxxxxx();
 
 
         //the division method needs work
@@ -282,7 +282,7 @@ public class X14101468 extends Polynomial {
     }
 
     public Polynomial remainder(Polynomial p) throws Exception {
-        Polynomial ans = new X14101468();
+        Polynomial ans = new Xxxxxxxx();
         // complete this code
         return ans;
     }
